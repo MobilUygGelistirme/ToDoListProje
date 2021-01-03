@@ -61,7 +61,7 @@ class LoginEkrani extends Component {
                         onPress={() => this.signInWithEmailAndPassword()}
                     >
                     </Button>
-                    <Text style={{textAlign:'center',fontSize:16,padding:15}}>OR, Don't have account yet?</Text>
+                    <Text style={{textAlign:'center',fontSize:16,padding:15}}>Henüz hesabınız yok mu?</Text>
                     <Button
                         icon={{
                             name: "user-plus",
@@ -69,7 +69,7 @@ class LoginEkrani extends Component {
                             size: 15,
                             color: "white"
                         }}
-                        buttonStyle={{ backgroundColor: Colors.primary2 }}
+                        buttonStyle={{ backgroundColor: Colors.primary }}
                         titleStyle={{color:'white'}}
                         loading={false}
                         raised
