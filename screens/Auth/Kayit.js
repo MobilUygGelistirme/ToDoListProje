@@ -78,7 +78,7 @@ class Kayit extends Component {
 
                 </Card>
                 <View>
-                    <Text style={{ textAlign: 'center', fontSize: 16, padding: 15 }}>Already have account?</Text>
+                    <Text style={{ textAlign: 'center', fontSize: 16, padding: 15 }}>Zaten hesabınız var mı?</Text>
                     <Button
                         icon={{
                             name: "sign-in",
@@ -86,7 +86,7 @@ class Kayit extends Component {
                             size: 15,
                             color: "white"
                         }}
-                        buttonStyle={{ backgroundColor: Colors.primary2 }}
+                        buttonStyle={{ backgroundColor: Colors.primary }}
                         titleStyle={{ color: 'white' }}
                         loading={false}
                         raised
